@@ -67,7 +67,7 @@ const Login = ({ onLogin }) => {
                 <p className="mt-2 text-sm text-red-600">{error}</p>
               )}
               <p className="mt-2 text-xs text-gray-500">
-                Please enter your tracking number in the format AA/GOAXUO
+                Please enter your tracking number in the format AAGOAXUO
               </p>
             </div>
             

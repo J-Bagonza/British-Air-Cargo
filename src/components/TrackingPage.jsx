@@ -102,7 +102,7 @@ const TrackingPage = ({ trackingNumber, onLogout }) => {
             <div className="flex flex-col space-y-2">
               <p className="text-blue-800 font-medium">{getStatusMessage()}</p>
               <div className="flex flex-wrap gap-4 text-sm text-gray-600">
-                <span>Username: {trackingData.username}</span>
+                
                 <span>Reg Number: {trackingData.regNumber}</span>
                 <span>Consignment Order: {trackingData.confirmationNumber}</span>
               </div>

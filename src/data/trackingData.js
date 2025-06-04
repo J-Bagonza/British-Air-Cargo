@@ -36,7 +36,7 @@ export const trackingDetails = {
       inTransit: true,
       arrived: true
     },
-    Delivery: "Thu, Jun 5, 2025",
+    estimatedDelivery: "Thu, Jun 5, 2025",
     lastUpdate: "Thu, Jun 5, 2025"
   }
 };
@@ -44,14 +44,13 @@ export const trackingDetails = {
 export const allTrackingDetails = validTrackingNumbers.reduce((acc, number) => {
   acc[number] = {
     ...trackingDetails["EA390VAWD"],
-    username: number,
     confirmationNumber: number === "EA390VAWD" ? "PH0SPA3022916" : number,
     status: {
       departed: true,
       inTransit: true,
       arrived: true
     },
-    Delivery: "Thu, Jun 5, 2025",
+    estimatedDelivery: "Thu, Jun 5, 2025",
     lastUpdate: "Thu, Jun 5, 2025"
   };
   return acc;
