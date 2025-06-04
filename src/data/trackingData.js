@@ -17,7 +17,7 @@ export const trackingDetails = {
     },
     arrival: {
       date: "Thu, Jun 5, 2025",
-      time: "9:30 AM",
+      time: "11:30 AM",
       location: "KENYA EAST AFRICA",
       code: "MBA",
       country: "KENYA EAST AFRICA"
