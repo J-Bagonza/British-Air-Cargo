@@ -6,7 +6,6 @@ export const validTrackingNumbers = [
 export const trackingDetails = {
   "EA390VAWD": {
     confirmationNumber: "PH0SPA3022916",
-    username: "EA390VAWD",
     regNumber: "37400BLK002",
     operator: "Global AirCargo Express",
     departure: {
@@ -37,7 +36,7 @@ export const trackingDetails = {
       inTransit: true,
       arrived: true
     },
-    estimatedDelivery: "Thu, Jun 5, 2025",
+    Delivery: "Thu, Jun 5, 2025",
     lastUpdate: "Thu, Jun 5, 2025"
   }
 };
@@ -52,7 +51,7 @@ export const allTrackingDetails = validTrackingNumbers.reduce((acc, number) => {
       inTransit: true,
       arrived: true
     },
-    estimatedDelivery: "Thu, Jun 5, 2025",
+    Delivery: "Thu, Jun 5, 2025",
     lastUpdate: "Thu, Jun 5, 2025"
   };
   return acc;
