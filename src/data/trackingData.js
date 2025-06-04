@@ -34,10 +34,10 @@ export const trackingDetails = {
     status: {
       departed: true,
       inTransit: true,
-      arrived: true
+      arrived: false
     },
     estimatedDelivery: "Thu, Jun 5, 2025",
-    lastUpdate: "Thu, Jun 5, 2025"
+    lastUpdate: "Wed, Jun 4, 2025"
   }
 };
 
@@ -48,10 +48,10 @@ export const allTrackingDetails = validTrackingNumbers.reduce((acc, number) => {
     status: {
       departed: true,
       inTransit: true,
-      arrived: true
+      arrived: false
     },
     estimatedDelivery: "Thu, Jun 5, 2025",
-    lastUpdate: "Thu, Jun 5, 2025"
+    lastUpdate: "Wed, Jun 4, 2025"
   };
   return acc;
 }, {});
