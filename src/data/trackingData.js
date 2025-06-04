@@ -31,7 +31,7 @@ export const trackingDetails = {
       name: "MOLAHLOA WALTER MAHONONO",
       phone: "+27739120935"
     },
-    items: "phone laptop accessories",
+    items: "phone, laptop, accessories",
     status: {
       departed: true,
       inTransit: true,
