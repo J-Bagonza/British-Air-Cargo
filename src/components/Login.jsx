@@ -58,7 +58,7 @@ const Login = ({ onLogin }) => {
                   type="text"
                   value={trackingNumber}
                   onChange={(e) => setTrackingNumber(e.target.value)}
-                  placeholder="Enter your tracking number (e.g. AA/GOA1UO)"
+                  placeholder="Enter your tracking number."
                   className="pl-10 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 border p-3"
                   required
                 />

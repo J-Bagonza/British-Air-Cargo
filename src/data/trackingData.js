@@ -10,14 +10,14 @@ export const trackingDetails = {
     regNumber: "37400BLK002",
     operator: "Global AirCargo Express",
     departure: {
-      date: new Date().toLocaleDateString('en-US', { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' }),
+      date: "Wed, Jun 4, 2025",
       time: "7:00 PM",
       location: "LONDON",
       code: "LHR",
       country: "UK"
     },
     arrival: {
-      date: new Date(Date.now() + 2*24*60*60*1000).toLocaleDateString('en-US', { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' }),
+      date: "Thu, Jun 5, 2025",
       time: "9:30 AM",
       location: "KENYA EAST AFRICA",
       code: "MBA",
@@ -35,10 +35,10 @@ export const trackingDetails = {
     status: {
       departed: true,
       inTransit: true,
-      arrived: false
+      arrived: true
     },
-    estimatedDelivery: new Date(Date.now() + 2*24*60*60*1000).toLocaleDateString('en-US', { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' }),
-    lastUpdate: new Date().toLocaleDateString('en-US', { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' })
+    estimatedDelivery: "Thu, Jun 5, 2025",
+    lastUpdate: "Thu, Jun 5, 2025"
   }
 };
 
@@ -50,10 +50,10 @@ export const allTrackingDetails = validTrackingNumbers.reduce((acc, number) => {
     status: {
       departed: true,
       inTransit: true,
-      arrived: false
+      arrived: true
     },
-    estimatedDelivery: new Date(Date.now() + 2*24*60*60*1000).toLocaleDateString('en-US', { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' }),
-    lastUpdate: new Date().toLocaleDateString('en-US', { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' })
+    estimatedDelivery: "Thu, Jun 5, 2025",
+    lastUpdate: "Thu, Jun 5, 2025"
   };
   return acc;
 }, {});
